@@ -134,7 +134,7 @@ apt-get -y install wget || {
 }
 
 #find out external ip 
-IP=`wget -q -O - http://api.ipify.org`
+IP=192.168.0.153
 
 if [ "x$IP" = "x" ]
 then
